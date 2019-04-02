@@ -1,0 +1,22 @@
+<h1><%= @cat.name %>'s Page!</h1>
+<h4><%= @cat.name %></h4>
+<br/>
+<table>
+  <thead>
+    <tr>
+      <th>Birth Date</th>
+      <th>Sex</th>
+      <th>Color</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th><%= @cat.birth_date %></th>
+      <th><%= @cat.sex %></th>
+      <th><%= @cat.color %></th>
+    </tr>
+  </tbody>
+</table>
+<br/>
+<h6>Description</h6>
+<p><%= @cat.description %></p>

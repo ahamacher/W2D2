@@ -1,0 +1,8 @@
+<h1>Index of All Cats!</h1>
+<a href="<%= new_cat_url %>">Add a cat!</a>
+<br/>
+<hr>
+<% @cats.each do |cat| %>
+  <%= cat.name %> | <a href="<%= cat_url(cat) %>">Show Cat Profile</a>
+  <br/>
+<% end %>
